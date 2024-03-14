@@ -5,6 +5,6 @@ import { index } from "../controller/control.js";
 
 const router = express.Router();
 
-router.get("/", index);
+router.get("/", index.getData);
 
 export default router;
