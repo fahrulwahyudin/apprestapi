@@ -1,6 +1,6 @@
 "use strict";
 
-const ok = (values, res) => {
+const ok = function (values, res) {
   const data = {
     status: 200,
     values: values,
